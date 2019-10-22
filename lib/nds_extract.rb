@@ -18,9 +18,9 @@ while info_index < movies.length do
   info_index += 1
 end
 count += 1
+result
 end  
-  result
-end
+  
 
 
 #example from enumerables
