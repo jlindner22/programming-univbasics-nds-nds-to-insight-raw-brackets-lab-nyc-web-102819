@@ -10,12 +10,12 @@ director_index = 0
 while director < directors.length do
 
 movie_index = 0
-while info_index < movies.length do
+while movie_index < movies.length do
   movies[movie_index][:worldwide_gross]
 # column_index = 0
       # grand_total +=directors_database[info_index][:worldwide_gross]
-    # column_index += 1
-  # end
+  director_index += 1
+end
   info_index += 1
 end
 count += 1
@@ -53,17 +53,6 @@ end
 #   row_index += 1
 # end
 # total #=> 297
-
-#answer from previous lab
-# def directors
-#   spielberg = directors_database[0]
-#   movies_index = 0 
-#   movies = spielberg[:movies]
-#   while movies_index < movies.count do
-#     puts movies[movies_index][:title]
-#     movies_index += 1 
-# end
-# end
 
 #example from this lab
 #   inner_index = 0
