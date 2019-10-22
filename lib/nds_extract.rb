@@ -2,16 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-end
-
-#   result = {
-#   }
-
-#   nil
-# end
-
-def directors_database
-  
+  result = {}
   count = 0
 directors = directors_database[count]
 info_index = 0
@@ -27,7 +18,10 @@ while info_index < movies.length do
   info_index += 1
 end
 count += 1
+end  
+  result
 end
+
 
 #example from enumerables
 # def reduce_to_total(source_array, starting_point = 0)
