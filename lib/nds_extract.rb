@@ -5,11 +5,10 @@ def directors_totals(nds)
   result = {}
   count = 0
 directors = directors_database[count]
-movie_index = 0
 movies = directors[:movies]
 director_index = 0
 while director < directors.length do
-
+movie_index = 0
 while info_index < movies.length do
   movies[movie_index][:worldwide_gross]
 # column_index = 0
