@@ -3,9 +3,6 @@ require 'directors_database'
 
 def directors_totals(nds)
   result = {}
-  count = 0
-directors = nds[count]
-movies = directors[:movies]
 director_index = 0
 while director_index < directors.length do
 
