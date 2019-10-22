@@ -8,6 +8,7 @@ directors = directors_database[count]
 movies = directors[:movies]
 director_index = 0
 while director < directors.length do
+
 movie_index = 0
 while info_index < movies.length do
   movies[movie_index][:worldwide_gross]
