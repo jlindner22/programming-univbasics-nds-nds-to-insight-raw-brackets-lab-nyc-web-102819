@@ -12,7 +12,7 @@ movie_index = 0
 movies = nds[director_index][:movies]
 while movie_index < movies.length do
   movies[movie_index][:worldwide_gross]
-    grand_total += name[:worldwide_gross]
+    grand_total += name[:worldwide_gross] + movies[movie_index][:worldwide_gross]
   movie_index += 1
 end
   director_index += 1
