@@ -6,7 +6,8 @@ def directors_totals(nds)
 director_index = 0
 while director_index < directors.length do
 #going through the list of directors and listing key/value pair 
-name = nds[director_index]
+name = nds[director_index][:name]
+puts name
 movie_index = 0
 while movie_index < movies.length do
   movies[movie_index][:worldwide_gross]
