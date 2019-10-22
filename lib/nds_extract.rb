@@ -7,11 +7,12 @@ director_index = 0
 while director_index < directors.length do
 #going through the list of directors and listing key/value pair 
 name = nds[director_index][:name]
-puts name
+grand_total = 0 
 movie_index = 0
+movies = nds[director_index][:movies]
 while movie_index < movies.length do
   movies[movie_index][:worldwide_gross]
-      grand_total +=nds[:worldwide_gross]
+    grand_total += name[:worldwide_gross]
   movie_index += 1
 end
   director_index += 1
