@@ -12,12 +12,11 @@ while director < directors.length do
 movie_index = 0
 while movie_index < movies.length do
   movies[movie_index][:worldwide_gross]
-      # grand_total +=directors_database[info_index][:worldwide_gross]
-  director_index += 1
+      grand_total +=directors_database[info_index][:worldwide_gross]
 end
   info_index += 1
 end
-count += 1
+  director_index += 1
 result
 end  
   
